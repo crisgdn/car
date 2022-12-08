@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/webclip.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mini Cooper</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="subcontainer">
+        <!-- Module main nav-->
+          <nav class="navbar">
+            <a href="" class="nav-branding">
+              <img src="images/logo.png" alt="logo" class="logo">
+            </a>
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="" class="nav-link">ELECTRIC</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">3 DOOR</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">5 DOOR</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">COUNTRYMAN</a>
+              </li>
+              <li class="">
+                <a href="" class="nav-link">CONVERTIBLE</a>
+              </li>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+        </div>
+      </div>
+  </header>
+   <body> 
+      <main id="app">
+        <!-- module video-->
+        <section class="module-video">
+        <div class="full-height" style="background-color: rgb(238, 238, 238);">
+          <div class="full-height-img">
+              <video autoplay="" muted="" loop="">
+                  <source src="videos/fast-facts.mp4"type="video/mp4">                
+              </video>
+          </div>
+          <div class="content">
+              <div class="header-page-title">
+                <h1>WELCOME TO MINI.<br>
+                  LET THE FUN BEGIN.</h1>
+              </div>
+          </div>
+        </div>
+        </section>
+        <!-- module slide meet the family-->
+        <section class="module-slide" >
+
+          <cars @loadbdata="loadLightbox" v-for ="value in valueData" :value="value"></cars>
+      
+        </section><!-- module slide meet the family-->
+
+        <lightbox v-if="showLightBox" :value="loadBData"></lightbox>
+    
+        <section><!-- image family-->
+          <img src="images/all_cars.jpg" alt="hatch family" class="img-family">
+        </section>
+      </main>
+   </body>   
+      <!-- module footer-->
+      <footer>
+        <div class="box1">
+          <div class="social-media">
+            <h5>JOIN OUR FUN-LOVING FAMILY.</h5>
+            <div class="icon-footer">
+              <a id="youtube" 
+              href="">
+              <img src="images/social_youtube.png" alt="youtube icon" class="social-image"></a>
+              <a id="instagram" 
+              href="">
+              <img src="images/social_instagram.png" alt="instagram icon" class="social-image"></a>            
+              <a id="facebook" 
+              href="">
+              <img src="images/social_facebook.png" alt="facebook icon" class="social-image"></a>
+              <a id="twitter" 
+              href="">
+              <img src="images/social_twitter.png" alt="twitter icon" class="social-image"></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="js/main.js" type="module" defer></script>
+</html>
+
