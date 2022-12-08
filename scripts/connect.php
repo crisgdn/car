@@ -7,9 +7,9 @@
 
 
     $servername = "localhost";
-    $database = "u505352870_car";
-    $username = "u505352870_criscar";
-    $password = "fusca82@BR";
+    $database = "";
+    $username = "";
+    $password = "";
      
     // Create connection
      
