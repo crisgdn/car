@@ -1,0 +1,67 @@
+{
+    "3 DOOR": {
+            "name": "MINI 3 DOOR",
+            "image":"F56-S.png",
+            "subtitle":"The original icon that started it all.",
+            "comparemobile": "3door-compare-mobile.svg",
+            "comparedesktop": "3door-compare-desktop.svg",
+            "priceimg": "23HA-en.png",
+            "pricetitle": "MINI COOPER 3 DOOR",
+            "pricesubtitle": "All-Inclusive Price: $34,056",
+            "pricerate": "5.49%",
+            "pricemonthly": "$517",
+            "engine": "3 Cylinder 12 Valve Twin Power Turbo",
+            "output": "Bore and Stroke",
+            "boreandstroke": "82.0 x 94.6",
+            "km": "8.0",
+            "transmission": "6-Speed Manual",
+            "compressionratio": "11",
+            "displacement": "1,499" 
+       },
+
+
+    "5 DOOR": {
+
+        "name": "THE MINI 5 DOOR",
+        "image":"F55-S.png",
+        "subtitle":"The iconic MINI with extra room, for those who lead a slightly fuller life.",
+        "comparemobile": "5door-compare-mobile.svg",
+        "comparedesktop": "5door-compare-desktop.svg",
+        "priceimg": "23HG-en.png",
+        "pricetitle": "MINI COOPER 5 DOOR",
+        "pricesubtitle": "All-Inclusive Price: $35,156",
+        "pricerate": "5.49%",
+        "pricemonthly": "$517",
+        "engine": "3 Cylinder 12 Valve Twin Power Turbo",
+        "output": "Bore and Stroke",
+        "boreandstroke": "82.0 x 94.6",
+        "km": "8.0",
+        "transmission": "6-Speed Manual",
+        "compressionratio": "11",
+        "displacement": "1,499"
+
+    },
+
+
+    "CONVERTIBLE": {
+            "name": "THE MINI CONVERTIBLE",
+            "image":"F57-S.png",
+            "subtitle":"The free spirit, featuring an open top for limitless open-air excitement.",
+            "comparemobile": "convertible-compare-mobile.svg",
+            "comparedesktop": "convertible-compare-desktop.svg",
+            "priceimg": "23VA-en.png",
+            "pricetitle": "MINI COOPER CONVERTIBLE",
+            "pricesubtitle": "All-Inclusive Price: $40,956",
+            "pricerate": "5.99%",
+            "pricemonthly": "$590.59",
+            "engine": "3 Cylinder 12 Valve Twin Power Turbo",
+            "output": "134 hp @ 4,500 - 6,000",
+            "boreandstroke": "82.0 x 94.6",
+            "km": "8.7",
+            "transmission": "6-Speed Manual",
+            "compressionrratio": "11",
+            "displacement": "1,499"
+        }
+
+       
+}
