@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.module-models {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    row-gap: 2px;
+    padding: 60px;
+}
+
+.models {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.img-model {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.button-car {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 160px;
+    height: 52px;
+    padding: 10px 12px;
+    background: #212121;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.arrow-open {
+    background: #FFFFFF;
+    border: 0px;
+}
+
+.img-family {
+    width: 100%;
+}

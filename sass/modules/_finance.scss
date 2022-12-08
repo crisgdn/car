@@ -1,0 +1,238 @@
+.nav-finance {
+ padding: 20px;
+}
+
+.button-tab {
+    height: 34px;
+    width: 70px;
+    border-radius: 4px;
+    padding: 5x;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-tab:hover {
+    height: 34px;
+    width: 70px;
+    border-radius: 4px;
+    padding: 5x;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #686868;
+}
+
+.button-tab:active {
+    height: 34px;
+    width: 70px;
+    border-radius: 4px;
+    padding: 5x;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #686868;
+}
+
+.button-lease {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 50px;
+  }
+
+.module-car {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 393px;
+}
+
+.three-door {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin:auto;
+}
+
+.offers {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 393px;
+}
+
+.offer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 390px;
+}
+
+.offer1 {
+    width: 141px;
+}
+
+.bold {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.numbers1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.regular {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+
+}
+
+.estimate-payment {
+    background: #EBEBEB;
+    padding: 20px;
+    width: 500px;
+}
+
+.estimate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.label-payment {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.button-time {
+    background: #EEEEEE;
+    border: 1px solid #010101;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.button-time:hover {
+    background: #010101;
+    color: #EEEEEE;
+    border: 1px solid #010101;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 2px;
+}
+
+.button-time:active {
+    background: #010101;
+    color: #EEEEEE;
+    border: 1px solid #010101;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 2px;
+}
+.nav-premier {
+    background: #C8C8C8;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+}
+
+.build {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 40px 40px 40px;
+}
+
+.premier {
+    margin-right: 20px;
+}
+
+.included {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 10px 20px;
+}
+.included p {
+  margin-left: 45px ;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.list p {
+    margin-left: 10px;
+}
+
+.compare {
+    margin: auto;
+}
+
+.img-compare {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .module-car {
+        background-color: #ffffff;
+        padding: 20px;
+        width: 220px;
+    }
+    
+    .offers {
+        background-color: #ffffff;
+        padding: 20px;
+        width: 220px;
+    }
+    
+    .offer-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 220px;
+    }
+}
