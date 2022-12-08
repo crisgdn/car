@@ -22,7 +22,7 @@ import Thecars from "./components/Thecars.js";
     createApp({
         created() {
         //get remote data
-            fetch('./data.json')//get json file
+            fetch('./scripts/json.php')//get json file
                 .then(res => res.json())//turn to a js object
                 .then(data => this.valueData = data)//transform into a element that can be used in js
             .catch(error => console.error(error));//if something wrong happens, catch the error            
